@@ -3,7 +3,6 @@ import mediapipe as mp
 import pickle
 import numpy as np
 
-
 def find_working_camera_index():
     for index in range(10):  # Adjust the range if you have more cameras
         cap = cv2.VideoCapture(index)
