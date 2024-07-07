@@ -23,7 +23,7 @@ model_dict = pickle.load(open('./model.pickle', 'rb'))
 model = model_dict['model']
 
 while True:
-
+#hello bob
     data_aux = []
 
     labels_dict = {0: 'A', 1: 'B', 2: 'L'}
